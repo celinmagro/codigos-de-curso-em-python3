@@ -1,0 +1,5 @@
+print('SEPARANDO DÍGITOS DE UM NÚMERO')
+print('>-'*20)
+num = int(input('Digite um número: '))
+print(f'\nUnidade: {num//1%10}\nDezena: {num//10%10}\nCentena: {num//100%10}\nMilhar: {num//1000%10}')
+print('>-'*20)

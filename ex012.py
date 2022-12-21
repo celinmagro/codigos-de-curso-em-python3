@@ -1,0 +1,6 @@
+print('Calculando descontos')
+print('='*40)
+preco = float(input('Preço do produto: R$'))
+desc = preco - (preco * (5/100))
+print('\nO produto que custava R${:.2f}, na promoção com desconto de 5% irá custar R${:.2f}'.format(preco, desc))
+print('='*40)
