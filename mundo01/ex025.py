@@ -1,5 +1,5 @@
 print('PROCURANDO UMA STRING DENTRO DE OUTRA')
-print('>-'*20)
+print('='*40)
 name = str(input('Qual o seu nome completo? ')).strip()
 print('Seu nome tem Silva? {}'.format('SILVA'in name.upper()))
-print('>-'*20)
+print('='*40)
