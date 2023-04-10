@@ -1,5 +1,5 @@
 print('PROCURANDO UMA STRING DENTRO DE OUTRA')
 print('='*40)
 name = str(input('Qual o seu nome completo? ')).strip()
-print('\nSeu nome tem Silva? {}'.format('SILVA'in name.upper()))
+print('\nSeu nome tem Silva?\n{}'.format('SILVA'in name.upper()))
 print('='*40)
